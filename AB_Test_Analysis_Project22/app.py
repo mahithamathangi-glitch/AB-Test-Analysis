@@ -16,7 +16,12 @@ st.write(
     "using session duration."
 )
 
-df = pd.read_csv("ab_test_analysis_dataset.csv")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "ab_test_analysis_dataset.csv"
+
+df = pd.read_csv(DATA_FILE)
 
 control = df[
     df["group"] == "Control"
