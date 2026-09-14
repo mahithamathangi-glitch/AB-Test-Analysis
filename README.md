@@ -122,3 +122,7 @@ Then run all notebook cells.
 Key Learning
 
 This project demonstrates that statistical significance alone is not sufficient for a business decision. Effect size and practical impact must also be considered.
+
+## Live Demo
+
+[View the live A/B Testing Dashboard](YOUR_STREAMLIT_URL)
