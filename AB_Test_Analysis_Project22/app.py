@@ -109,7 +109,7 @@ fig, ax = plt.subplots()
 
 ax.boxplot(
     [control, treatment],
-    labels=["Control", "Treatment"]
+    tick_labels=["Control", "Treatment"]
 )
 
 ax.set_ylabel(
