@@ -4,6 +4,7 @@ import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
 
+
 st.set_page_config(
     page_title="A/B Test Analysis",
     page_icon="📊"
@@ -19,7 +20,7 @@ st.write(
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_FILE = BASE_DIR / "ab_test_analysis_dataset.csv"
+DATA_FILE = BASE_DIR.parent / "ab_test_analysis_dataset.csv"
 
 df = pd.read_csv(DATA_FILE)
 
