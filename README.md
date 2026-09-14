@@ -125,4 +125,4 @@ This project demonstrates that statistical significance alone is not sufficient 
 
 ## Live Demo
 
-[View the live A/B Testing Dashboard](YOUR_STREAMLIT_URL)
+[[View the live A/B Testing Dashboard](YOUR_STREAMLIT_URL](https://ab-test-analysis-3fxdvag3xo8tgxuxdn5x7x.streamlit.app/))
